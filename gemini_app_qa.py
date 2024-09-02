@@ -4,7 +4,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.output_parsers import StrOutputParser
 
 import os
-os.environ["GOOGLE_API_KEY"]="AIzaSyA6dua_cmZfZAFA1wu-_ViFKlyCCpmXNRQ"
+os.environ["GOOGLE_API_KEY"]=""
 llm=ChatGoogleGenerativeAI(
     model="gemini-1.5-pro",
     temparature=0.4)
