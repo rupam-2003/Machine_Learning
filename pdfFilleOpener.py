@@ -7,7 +7,7 @@ from langchain.prompts import PromptTemplate
 from langchain.chains.question_answering import load_qa_chain
 from langchain.vectorstores import FAISS
 import os
-os.environ["GOOGLE_API_KEY"]="AIzaSyCKWLuWF79YguDT7smZtWC4Elt8EBlar-g"
+os.environ["GOOGLE_API_KEY"]=""
 def get_pdf_text(pdf_docs):
     text = ""
     for pdf in pdf_docs:
