@@ -9,7 +9,7 @@ from langchain.chains import create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_core.prompts import ChatPromptTemplate
 import os
-os.environ["GOOGLE_API_KEY"]="AIzaSyA6dua_cmZfZAFA1wu-_ViFKlyCCpmXNRQ"
+os.environ["GOOGLE_API_KEY"]="" #give your qwn api key
 loader=PyPDFLoader(r"D:\\download\\yolov9_paper.pdf")
 data=loader.load()
 text_spiliter=RecursiveCharacterTextSplitter(chunk_size=1000)
